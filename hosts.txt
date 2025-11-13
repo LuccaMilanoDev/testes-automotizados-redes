@@ -3,3 +3,4 @@
 www.google.com
 www.github.com
 192.168.1.1
+www.apple.dev

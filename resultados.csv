@@ -1,6 +1,8 @@
-Host,Status,Tempo de resposta (ms),Data/Hora
-8.8.8.8,Ativo,40.02,2025-11-11 08:16:06
-1.1.1.1,Ativo,3.37,2025-11-11 08:16:06
-www.google.com,Ativo,37.26,2025-11-11 08:16:06
-www.github.com,Ativo,56.11,2025-11-11 08:16:06
-192.168.1.1,Inativo,-,2025-11-11 08:16:06
+host,ping_ok,http_ok,http_code,tempo_execucao
+8.8.8.8,True,,,0.05
+1.1.1.1,True,,,0.02
+https://www.google.com,True,True,200,0.35
+https://www.github.com,True,True,200,0.88
+https://example.com,True,True,200,0.55
+192.168.1.1,False,,,2.0
+https://naoexiste.dominio,True,False,,0.08
